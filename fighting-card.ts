@@ -5,4 +5,9 @@ interface FightingCard {
   specialAbilityText?: string;
   specialAbility?: (player) => {};
   lifePoints: number;
+  enum Age {
+    Old
+    ReallyOld
+  };
+  aging: Age;
 }
